@@ -11,7 +11,6 @@ const Index = () => {
   const { user } = useAuth();
 
   useEffect(() => {
-    // Redirect to space if already authenticated
     if (user) {
       navigate("/space");
     }
